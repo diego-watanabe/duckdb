@@ -3,6 +3,7 @@ pyproject.toml
 setup.cfg
 setup.py
 jaffle/__init__.py
+jaffle/duckpond.py
 jaffle/repository.py
 jaffle.egg-info/PKG-INFO
 jaffle.egg-info/SOURCES.txt

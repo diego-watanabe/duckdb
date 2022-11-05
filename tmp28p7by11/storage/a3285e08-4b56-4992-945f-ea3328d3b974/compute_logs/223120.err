@@ -1,0 +1,40 @@
+[32m2022-11-05 02:21:02 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - a3285e08-4b56-4992-945f-ea3328d3b974 - 223120 - LOGS_CAPTURED - Started capturing logs in process (pid: 223120).
+[32m2022-11-05 02:21:02 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - a3285e08-4b56-4992-945f-ea3328d3b974 - 223120 - preview_all - STEP_START - Started execution of step "preview_all".
+[32m2022-11-05 02:21:02 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - a3285e08-4b56-4992-945f-ea3328d3b974 - 223120 - preview_all - LOADED_INPUT - Loaded input "customers" using input manager "io_manager", from output "result" of step "customers"
+[32m2022-11-05 02:21:02 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - a3285e08-4b56-4992-945f-ea3328d3b974 - 223120 - preview_all - LOADED_INPUT - Loaded input "orders" using input manager "io_manager", from output "result" of step "orders"
+[32m2022-11-05 02:21:02 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - a3285e08-4b56-4992-945f-ea3328d3b974 - 223120 - preview_all - STEP_INPUT - Got input "customers" of type "SQL". (Type check passed).
+[32m2022-11-05 02:21:02 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - a3285e08-4b56-4992-945f-ea3328d3b974 - 223120 - preview_all - STEP_INPUT - Got input "orders" of type "SQL". (Type check passed).
+[32m2022-11-05 02:21:02 -0400[0m - dagster - [34mINFO[0m - __ASSET_JOB - a3285e08-4b56-4992-945f-ea3328d3b974 - preview_all - Customers:
+[32m2022-11-05 02:21:02 -0400[0m - dagster - [34mINFO[0m - __ASSET_JOB - a3285e08-4b56-4992-945f-ea3328d3b974 - preview_all -     customer_id  first_name  ... number_of_orders customer_lifetime_value
+0             1     Michael  ...              2.0                    33.0
+1             2       Shawn  ...              1.0                    23.0
+2             3    Kathleen  ...              3.0                    65.0
+3             6       Sarah  ...              1.0                     8.0
+4             7      Martin  ...              1.0                    26.0
+..          ...         ...  ...              ...                     ...
+95           95        Lisa  ...              NaN                     NaN
+96           96  Jacqueline  ...              NaN                     NaN
+97           97     Shirley  ...              NaN                     NaN
+98           98      Nicole  ...              NaN                     NaN
+99          100        Jean  ...              NaN                     NaN
+
+[100 rows x 7 columns]
+[32m2022-11-05 02:21:02 -0400[0m - dagster - [34mINFO[0m - __ASSET_JOB - a3285e08-4b56-4992-945f-ea3328d3b974 - preview_all - Orders:
+[32m2022-11-05 02:21:02 -0400[0m - dagster - [34mINFO[0m - __ASSET_JOB - a3285e08-4b56-4992-945f-ea3328d3b974 - preview_all -     order_id  customer_id  ... gift_card_amount amount
+0          1            1  ...              0.0   10.0
+1          2            3  ...              0.0   20.0
+2          3           94  ...              0.0    1.0
+3          4           50  ...              0.0   25.0
+4          5           64  ...              0.0   17.0
+..       ...          ...  ...              ...    ...
+94        95           27  ...              0.0   24.0
+95        96           90  ...             17.0   17.0
+96        97           89  ...              0.0   14.0
+97        98           41  ...              0.0   10.0
+98        99           85  ...              0.0   24.0
+
+[99 rows x 9 columns]
+[32m2022-11-05 02:21:02 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - a3285e08-4b56-4992-945f-ea3328d3b974 - 223120 - preview_all - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2022-11-05 02:21:02 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - a3285e08-4b56-4992-945f-ea3328d3b974 - 223120 - preview_all - ASSET_MATERIALIZATION - Materialized value preview_all.
+[32m2022-11-05 02:21:02 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - a3285e08-4b56-4992-945f-ea3328d3b974 - 223120 - preview_all - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2022-11-05 02:21:02 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - a3285e08-4b56-4992-945f-ea3328d3b974 - 223120 - preview_all - STEP_SUCCESS - Finished execution of step "preview_all" in 643ms.

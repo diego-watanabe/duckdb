@@ -120,3 +120,10 @@ select * from final
         stg_orders=stg_orders,
         stg_payments=stg_payments,
     )
+
+@asset(required_resource_keys={"duckdb"})
+def preview_all(context, customers: SQL, orders: SQL):
+    context.log.info(f"Customers:")
+    context.log.info(context.resources.duckdb.query(customers))
+    context.log.info(f"Orders:")
+    context.log.info(context.resources.duckdb.query(orders))

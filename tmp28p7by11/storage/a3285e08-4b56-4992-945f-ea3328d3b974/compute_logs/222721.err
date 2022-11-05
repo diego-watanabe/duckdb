@@ -1,0 +1,6 @@
+[32m2022-11-05 02:20:58 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - a3285e08-4b56-4992-945f-ea3328d3b974 - 222721 - LOGS_CAPTURED - Started capturing logs in process (pid: 222721).
+[32m2022-11-05 02:20:58 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - a3285e08-4b56-4992-945f-ea3328d3b974 - 222721 - stg_orders - STEP_START - Started execution of step "stg_orders".
+[32m2022-11-05 02:20:59 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - a3285e08-4b56-4992-945f-ea3328d3b974 - 222721 - stg_orders - STEP_OUTPUT - Yielded output "result" of type "SQL". (Type check passed).
+[32m2022-11-05 02:20:59 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - a3285e08-4b56-4992-945f-ea3328d3b974 - 222721 - stg_orders - ASSET_MATERIALIZATION - Materialized value stg_orders.
+[32m2022-11-05 02:20:59 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - a3285e08-4b56-4992-945f-ea3328d3b974 - 222721 - stg_orders - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2022-11-05 02:20:59 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - a3285e08-4b56-4992-945f-ea3328d3b974 - 222721 - stg_orders - STEP_SUCCESS - Finished execution of step "stg_orders" in 407ms.
