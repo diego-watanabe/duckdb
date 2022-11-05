@@ -1,0 +1,6 @@
+[32m2022-11-05 01:35:36 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 46c8eb79-3b50-4a65-a3cd-13f5e327ab00 - 189040 - LOGS_CAPTURED - Started capturing logs in process (pid: 189040).
+[32m2022-11-05 01:35:36 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 46c8eb79-3b50-4a65-a3cd-13f5e327ab00 - 189040 - population - STEP_START - Started execution of step "population".
+[32m2022-11-05 01:35:36 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 46c8eb79-3b50-4a65-a3cd-13f5e327ab00 - 189040 - population - STEP_OUTPUT - Yielded output "result" of type "SQL". (Type check passed).
+[32m2022-11-05 01:35:36 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 46c8eb79-3b50-4a65-a3cd-13f5e327ab00 - 189040 - population - ASSET_MATERIALIZATION - Materialized value population.
+[32m2022-11-05 01:35:36 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 46c8eb79-3b50-4a65-a3cd-13f5e327ab00 - 189040 - population - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2022-11-05 01:35:36 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 46c8eb79-3b50-4a65-a3cd-13f5e327ab00 - 189040 - population - STEP_SUCCESS - Finished execution of step "population" in 529ms.

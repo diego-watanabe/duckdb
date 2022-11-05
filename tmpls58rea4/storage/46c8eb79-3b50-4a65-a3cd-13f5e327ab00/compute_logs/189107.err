@@ -1,0 +1,8 @@
+[32m2022-11-05 01:35:37 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 46c8eb79-3b50-4a65-a3cd-13f5e327ab00 - 189107 - LOGS_CAPTURED - Started capturing logs in process (pid: 189107).
+[32m2022-11-05 01:35:37 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 46c8eb79-3b50-4a65-a3cd-13f5e327ab00 - 189107 - continent_population - STEP_START - Started execution of step "continent_population".
+[32m2022-11-05 01:35:37 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 46c8eb79-3b50-4a65-a3cd-13f5e327ab00 - 189107 - continent_population - LOADED_INPUT - Loaded input "population" using input manager "io_manager", from output "result" of step "population"
+[32m2022-11-05 01:35:37 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 46c8eb79-3b50-4a65-a3cd-13f5e327ab00 - 189107 - continent_population - STEP_INPUT - Got input "population" of type "SQL". (Type check passed).
+[32m2022-11-05 01:35:37 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 46c8eb79-3b50-4a65-a3cd-13f5e327ab00 - 189107 - continent_population - STEP_OUTPUT - Yielded output "result" of type "SQL". (Type check passed).
+[32m2022-11-05 01:35:38 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 46c8eb79-3b50-4a65-a3cd-13f5e327ab00 - 189107 - continent_population - ASSET_MATERIALIZATION - Materialized value continent_population.
+[32m2022-11-05 01:35:38 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 46c8eb79-3b50-4a65-a3cd-13f5e327ab00 - 189107 - continent_population - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2022-11-05 01:35:38 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 46c8eb79-3b50-4a65-a3cd-13f5e327ab00 - 189107 - continent_population - STEP_SUCCESS - Finished execution of step "continent_population" in 333ms.
